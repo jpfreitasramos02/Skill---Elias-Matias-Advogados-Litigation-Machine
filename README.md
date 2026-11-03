@@ -36,10 +36,23 @@ pecas-processuais/
 
 ## Instalar
 
-Gere o pacote e envie em **Configurações → Capacidades → Skills** no Claude (Desktop/Cowork):
+Baixe **[`dist/pecas-processuais.skill.zip`](dist/pecas-processuais.skill.zip)** (botão "Download raw
+file") e envie esse arquivo em **Configurações → Capacidades → Skills → Fazer upload** no Claude.
+
+> Não use o "Code → Download ZIP" do GitHub: esse zip traz o repositório inteiro, com o
+> `SKILL.md` dois níveis abaixo da raiz, e o Claude recusa o upload.
+
+Antes, no Claude que vai receber a skill:
+- ative **Execução de código e criação de arquivos** (Configurações → Capacidades) — sem isso as
+  skills não aparecem;
+- se já existir uma skill chamada `pecas-processuais` (por exemplo, a versão antiga, da LSP),
+  remova-a ou desative-a antes de enviar esta, que tem o mesmo nome;
+- em conta Team/Enterprise, um administrador precisa ter liberado skills para a organização.
+
+Para gerar o zip de novo depois de alterar a skill:
 
 ```bash
-zip -r pecas-processuais.skill.zip pecas-processuais -x '*__pycache__*'
+zip -r dist/pecas-processuais.skill.zip pecas-processuais -x '*__pycache__*'
 ```
 
 Dependências: Python 3, poppler (`pdftotext`, `pdftoppm`), Pillow e LibreOffice (para conferir o
