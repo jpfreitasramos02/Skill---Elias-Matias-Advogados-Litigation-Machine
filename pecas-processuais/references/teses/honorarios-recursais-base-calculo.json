@@ -1,0 +1,83 @@
+{
+  "id": "honorarios-recursais-base-calculo",
+  "titulo": "Honorários recursais (CPC, art. 85, § 11) incidem sobre a mesma base de cálculo da fixação originária",
+  "clientes": [
+    "AREPC"
+  ],
+  "tags": [
+    "honorários",
+    "honorários recursais",
+    "majoração",
+    "base de cálculo",
+    "art. 523"
+  ],
+  "resumo": "Os honorários recursais não são verba autônoma, mas acréscimo à sucumbência já arbitrada; a majoração observa a base de cálculo da fixação original (ex.: valor da condenação), e não o valor nominal dos honorários.",
+  "uso": "Os honorários recursais não constituem verba autônoma; são acréscimo à sucumbência anteriormente arbitrada e, por isso, seguem a mesma base de cálculo da fixação original. Essa é a orientação deste E. Tribunal:",
+  "dispositivos": [
+    {
+      "lei": "CPC",
+      "artigo": "85",
+      "texto": "“Art. 85. A sentença condenará o vencido a pagar honorários ao advogado do vencedor.\n(...)\n§ 11. O tribunal, ao julgar recurso, majorará os honorários fixados anteriormente levando em conta o trabalho adicional realizado em grau recursal, observando, conforme o caso, o disposto nos §§ 2º a 6º, sendo vedado ao tribunal, no cômputo geral da fixação de honorários devidos ao advogado do vencedor, ultrapassar os respectivos limites estabelecidos nos §§ 2º e 3º para a fase de conhecimento.\n(...)”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "523",
+      "texto": "“Art. 523. No caso de condenação em quantia certa, ou já fixada em liquidação, e no caso de decisão sobre parcela incontroversa, o cumprimento definitivo da sentença far-se-á a requerimento do exequente, sendo o executado intimado para pagar o débito, no prazo de 15 (quinze) dias, acrescido de custas, se houver.\n§ 1º Não ocorrendo pagamento voluntário no prazo do caput, o débito será acrescido de multa de dez por cento e, também, de honorários de advogado de dez por cento. (...)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "precedentes": [
+    {
+      "tipo": "Tema",
+      "numero": "677",
+      "tribunal": "STJ",
+      "tese": "",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "obs": "citado na ementa do AI 2158016-13.2026.8.26.0000 (depósito judicial não elide a mora)"
+    }
+  ],
+  "julgados": [
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2057919-05.2026.8.26.0000",
+      "relator": "Lavinio Donizetti Paschoalão",
+      "orgao": "38ª Câmara de Direito Privado",
+      "origem_foro": "Foro Regional VII - Itaquera - 3ª Vara Cível",
+      "julgamento": "15/07/2026",
+      "registro": "16/07/2026",
+      "ementa": "“AGRAVO DE INSTRUMENTO - CUMPRIMENTO DE SENTENÇA - Honorários advocatícios sucumbenciais - Impugnação aos cálculos rejeitada - Insurgência da executada - Majoração recursal determinada pelo STJ com fundamento no art. 85, § 11, do CPC - Verba honorária originariamente fixada sobre o valor atualizado da causa - ==Necessidade de preservação da mesma base de cálculo utilizada na fixação inicial - Honorários recursais que não constituem verba autônoma, mas acréscimo à sucumbência anteriormente arbitrada - Interpretação da expressão \"valor já arbitrado\" em consonância com a sistemática do art. 85 do CPC== - Inocorrência de excesso de execução - Cálculos dos exequentes corretamente acolhidos - Decisão mantida - RECURSO NÃO PROVIDO.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2158016-13.2026.8.26.0000",
+      "relator": "Erickson Gavazza Marques",
+      "orgao": "5ª Câmara de Direito Privado",
+      "origem_foro": "Foro de Leme - 1ª Vara Cível",
+      "julgamento": "27/08/2026",
+      "registro": "27/08/2026",
+      "ementa": "> ==TJSP:== “DIREITO PROCESSUAL CIVIL. AGRAVO DE INSTRUMENTO. CUMPRIMENTO DE SENTENÇA. DEPÓSITO JUDICIAL PARA GARANTIA DO JUÍZO. INCIDÊNCIA DE JUROS DE MORA E CORREÇÃO MONETÁRIA ATÉ O EFETIVO LEVANTAMENTO. TEMA 677/STJ. MULTA E HONORÁRIOS DO ART. 523, §1º, DO CPC. MAJORAÇÃO DE HONORÁRIOS RECURSAIS (ART. 85, §11, CPC). BASE DE CÁLCULO. RECURSO PROVIDO. I. Caso em exame Agravo de instrumento interposto contra decisão que, em cumprimento de sentença, não acolheu os cálculos dos exequentes, afastando a incidência de juros e correção monetária a partir do depósito judicial, bem como a multa e honorários do art. 523, §1º, do CPC, além de limitar a majoração dos honorários sucumbenciais apenas sobre a verba honorária. Os agravantes sustentam a incidência de consectários legais até o efetivo levantamento, a aplicação do Tema 677/STJ, o cabimento da multa e honorários por ausência de pagamento voluntário, e a incidência da majoração recursal sobre o valor total da condenação. II. Questão em discussão 2. Há quatro questões em discussão: (i) saber se o depósito judicial para garantia do juízo afasta a incidência de juros de mora e correção monetária até o levantamento pelo credor; (ii) saber se é devida a multa e os honorários advocatícios do art. 523, §1º, do CPC; (iii) saber se a majoração dos honorários sucumbenciais, nos termos do art. 85, §11, do CPC, incide sobre o valor total da condenação ou apenas sobre a verba honorária; (iv) saber os critérios de apuração do eventual saldo remanescente após o levantamento dos valores depositados. III. Razões de decidir 3. O depósito judicial para garantia do juízo não configura pagamento voluntário, pois não implica disponibilização imediata ao credor, razão pela qual não afasta a incidência de multa e honorários previstos no art. 523, §1º, do CPC. 4. Nos termos do Tema 677/STJ, o depósito efetuado para garantia do juízo não elide a mora do devedor, permanecendo devidos os juros moratórios e a correção monetária até o efetivo pagamento, a ser considerado como o levantamento dos valores pelo credor, devendo ser abatido do montante final o saldo da conta judicial com seus acréscimos. 5. A correção monetária e os juros de mora incidem até a efetiva satisfação do crédito, que, na hipótese, coincide com o levantamento da quantia depositada, e não com a data do depósito judicial. 6. ==A majoração de honorários sucumbenciais em grau recursal, nos termos do art. 85, §11, do CPC, deve observar a base de cálculo originária, que, no caso, corresponde ao valor da condenação, não sendo admissível restringir sua incidência apenas à verba honorária anteriormente fixada.== 7. Eventual saldo remanescente deverá ser apurado mediante novos cálculos pelos exequentes, com a devida atualização e abatimento dos valores efetivamente levantados, considerados os rendimentos da conta judicial. IV. Dispositivo e tese 8. Recurso provido. Tese de julgamento: O depósito judicial realizado para garantia do juízo não afasta a incidência de juros de mora e correção monetária, os quais perduram até o efetivo levantamento dos valores pelo credor, conforme o Tema 677/STJ. A ausência de pagamento voluntário no prazo legal enseja a aplicação da multa e dos honorários advocatícios previstos no art. 523, §1º, do CPC. ==A majoração dos honorários sucumbenciais prevista no art. 85, §11, do CPC incide sobre o valor total da condenação, quando essa for a base originária de fixação.== O saldo remanescente em cumprimento de sentença deve ser apurado mediante atualização integral do débito até o efetivo pagamento, com dedução dos valores depositados e seus acréscimos. Dispositivos relevantes citados: CPC, arts. 523, §1º; 1.019; 85, §§ 2º, 3º e 11. Jurisprudência relevante citada: STJ, REsp nº 1.820.963/SP, Rel. Min. Nancy Andrighi, Corte Especial, j. 19.10.2022.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "observacoes": ""
+}

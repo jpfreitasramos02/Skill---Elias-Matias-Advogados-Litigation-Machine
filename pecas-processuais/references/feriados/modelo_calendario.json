@@ -1,0 +1,37 @@
+{
+  "descricao": "Calendário forense TJSP 2026",
+  "fonte_geral": "Provimento CSM nº ___/2025, DJE de __/__/2025",
+  "dias": [
+    {
+      "data": "16/02/2026",
+      "motivo": "Carnaval (segunda-feira)",
+      "abrangencia": "TJSP",
+      "fonte": "Provimento CSM nº ___/2025, art. __",
+      "conferido": true
+    },
+    {
+      "data": "28/10/2026",
+      "motivo": "Dia do Servidor Público",
+      "abrangencia": "TJSP",
+      "fonte": "Provimento CSM nº ___/2025",
+      "expediente_normal": true
+    },
+    {
+      "data": "16/08/2026",
+      "motivo": "Dia de São Roque",
+      "abrangencia": "comarca:São Roque",
+      "fonte": "Provimento CSM nº ___/2025",
+      "conferido": true
+    }
+  ],
+  "suspensoes": [
+    {
+      "de": "10/03/2026",
+      "ate": "11/03/2026",
+      "motivo": "Indisponibilidade do e-SAJ",
+      "abrangencia": "TJSP",
+      "fonte": "Comunicado SPI nº ___/2026",
+      "conferido": true
+    }
+  ]
+}

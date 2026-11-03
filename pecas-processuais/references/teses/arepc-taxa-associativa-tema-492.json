@@ -1,0 +1,44 @@
+{
+  "id": "arepc-taxa-associativa-tema-492",
+  "titulo": "Cobrança de taxas associativas de loteamento (Tema 492/STF e art. 36-A da Lei nº 6.766/1979)",
+  "clientes": [
+    "AREPC"
+  ],
+  "tags": [
+    "loteamento",
+    "associação",
+    "taxa associativa",
+    "taxa de manutenção",
+    "Tema 492",
+    "Lei 13.465/2017",
+    "art. 36-A"
+  ],
+  "resumo": "Legitimidade da cobrança, pela associação, das taxas de manutenção e conservação do loteamento, à luz da tese do Tema 492 da repercussão geral do STF e do art. 36-A da Lei nº 6.766/1979 (incluído pela Lei nº 13.465/2017). [Banco ainda sem tese transcrita nem julgados conferidos: preencher na primeira pesquisa.]",
+  "uso": "",
+  "dispositivos": [
+    {
+      "lei": "Lei nº 6.766/1979",
+      "artigo": "36-A",
+      "texto": "",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l6766.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "a transcrever do Planalto"
+    }
+  ],
+  "precedentes": [
+    {
+      "tipo": "Tema",
+      "numero": "492",
+      "tribunal": "STF",
+      "leading_case": "RE 695.911",
+      "tese": "",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "obs": "transcrever a tese fixada do portal do STF (repercussão geral)"
+    }
+  ],
+  "julgados": [],
+  "observacoes": ""
+}

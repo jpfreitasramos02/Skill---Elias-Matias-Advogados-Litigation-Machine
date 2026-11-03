@@ -1,0 +1,33 @@
+{
+  "id": "arrematacao-subrogacao-iptu-limites",
+  "titulo": "Sub-rogação do IPTU no preço da arrematação: limites do crédito do Município (CTN, art. 130, parágrafo único; Tema 1134/STJ)",
+  "clientes": [
+    "AREPC"
+  ],
+  "tags": [
+    "arrematação",
+    "IPTU",
+    "sub-rogação",
+    "CTN 130",
+    "Tema 1134",
+    "levantamento",
+    "concurso de credores"
+  ],
+  "resumo": "O crédito tributário sub-roga-se no preço só quanto aos tributos com fato gerador anterior à alienação, nos limites da habilitação deferida; parcelas posteriores, honorários dos procuradores (CPC, art. 85, § 19) e encargos da inércia do Município não têm a preferência do art. 186 do CTN.",
+  "uso": "",
+  "dispositivos": [],
+  "precedentes": [
+    {
+      "tipo": "Tema",
+      "numero": "1134",
+      "tribunal": "STJ",
+      "tese": "",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "obs": "citado na manifestação sem a tese transcrita — transcrever do portal do STJ"
+    }
+  ],
+  "julgados": [],
+  "observacoes": "Origem: Manifestação AREPC (0001867-36.2011.8.26.0586), out/2026."
+}

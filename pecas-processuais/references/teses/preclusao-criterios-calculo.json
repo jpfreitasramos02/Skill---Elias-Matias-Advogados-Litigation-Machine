@@ -1,0 +1,123 @@
+{
+  "id": "preclusao-criterios-calculo",
+  "titulo": "Erro material não autoriza rediscutir critério ou base de cálculo já decididos (preclusão)",
+  "clientes": [
+    "AREPC"
+  ],
+  "tags": [
+    "cumprimento de sentença",
+    "cálculo",
+    "erro material",
+    "preclusão",
+    "coisa julgada",
+    "excesso de execução"
+  ],
+  "resumo": "A alegação de \"erro material\" não permite alterar o saldo-base ou os critérios de cálculo fixados em decisão anterior não impugnada; a matéria está preclusa (CPC, arts. 505, 507 e 509, § 4º) e o art. 494, I, do CPC só alcança inexatidões aritméticas evidentes.",
+  "uso": "Este E. Tribunal tem rechaçado, reiteradamente, a tentativa de alterar o saldo-base de cálculos já fixados sob o rótulo de erro material:",
+  "dispositivos": [
+    {
+      "lei": "CPC",
+      "artigo": "505",
+      "texto": "“Art. 505. Nenhum juiz decidirá novamente as questões já decididas relativas à mesma lide, salvo:\nI - se, tratando-se de relação jurídica de trato continuado, sobreveio modificação no estado de fato ou de direito, caso em que poderá a parte pedir a revisão do que foi estatuído na sentença;\nII - nos demais casos prescritos em lei.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "507",
+      "texto": "“Art. 507. É vedado à parte discutir no curso do processo as questões já decididas a cujo respeito se operou a preclusão.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "509",
+      "texto": "“Art. 509. Quando a sentença condenar ao pagamento de quantia ilíquida, proceder-se-á à sua liquidação, a requerimento do credor ou do devedor:\nI - por arbitramento, quando determinado pela sentença, convencionado pelas partes ou exigido pela natureza do objeto da liquidação;\nII - pelo procedimento comum, quando houver necessidade de alegar e provar fato novo.\n§ 1º Quando na sentença houver uma parte líquida e outra ilíquida, ao credor é lícito promover simultaneamente a execução daquela e, em autos apartados, a liquidação desta.\n§ 2º Quando a apuração do valor depender apenas de cálculo aritmético, o credor poderá promover, desde logo, o cumprimento da sentença.\n§ 3º O Conselho Nacional de Justiça desenvolverá e colocará à disposição dos interessados programa de atualização financeira.\n§ 4º Na liquidação é vedado discutir de novo a lide ou modificar a sentença que a julgou.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "494",
+      "texto": "“Art. 494. Publicada a sentença, o juiz só poderá alterá-la:\nI - para corrigir-lhe, de ofício ou a requerimento da parte, inexatidões materiais ou erros de cálculo;\nII - por meio de embargos de declaração.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "precedentes": [],
+  "julgados": [
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2202733-13.2026.8.26.0000",
+      "relator": "Eduardo Velho",
+      "orgao": "17ª Câmara de Direito Privado",
+      "origem_foro": "Foro Central - Fazenda Pública/Acidentes - 6ª Vara de Fazenda Pública",
+      "julgamento": "17/10/2026",
+      "registro": "23/10/2026",
+      "ementa": "“AGRAVO DE INSTRUMENTO – AÇÃO CIVIL PÚBLICA – EXPURGOS INFLACIONÁRIOS – PLANO VERÃO – CUMPRIMENTO INDIVIDUAL DE SENTENÇA – CÁLCULOS – ==Alegação de erro material quanto ao saldo-base utilizado para apuração do crédito – Descabimento – Pretensão que não se limita à correção de inexatidão aritmética, mas implica alteração do critério de cálculo adotado desde o início da execução – Questão alcançada pela preclusão – Impossibilidade de rediscussão sob o fundamento de erro material== – Decisão mantida. RECURSO DESPROVIDO.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2109140-27.2026.8.26.0000",
+      "relator": "Claudio Teixeira Villar",
+      "orgao": "16ª Câmara de Direito Privado",
+      "origem_foro": "Foro Regional III - Jabaquara - 3ª Vara Cível",
+      "julgamento": "22/10/2026",
+      "registro": "22/10/2026",
+      "ementa": "> ==TJSP:== “AGRAVO DE INSTRUMENTO. CUMPRIMENTO DE SENTENÇA. IMPUGNAÇÃO ACOLHIDA POR EXCESSO DE EXECUÇÃO. ALEGAÇÃO DE ERRO MATERIAL ARITMÉTICO NA SENTENÇA TRANSITADA EM JULGADO. NÃO OCORRÊNCIA. ADSTRIÇÃO AO PEDIDO DA INICIAL. INTANGIBILIDADE DA COISA JULGADA. HONORÁRIOS SUCUMBENCIAIS DEVIDOS. DECISÃO MANTIDA. RECURSO NÃO PROVIDO. I. Caso em exame: 1. Agravo de instrumento interposto pela exequente contra decisão que acolheu impugnação ao cumprimento de sentença para reconhecer excesso de execução, determinando o prosseguimento do feito com base no valor nominal constante do dispositivo da sentença transitada em julgado (R$ 42.651,00), afastando a base de R$ 55.304,00 pretendida pela credora, com fixação de honorários sucumbenciais em favor da executada sobre o proveito econômico obtido. II. Questão em discussão: 2. A questão em discussão consiste em: (i) verificar se a fixação da condenação na sentença em R$ 42.651,00 padece de erro material aritmético passível de retificação na fase de cumprimento de sentença com base em comprovantes da fase de conhecimento, sem afronta à coisa julgada; e (ii) examinar o cabimento da fixação de honorários sucumbenciais em benefício do patrono da executada pelo acolhimento da impugnação por excesso de execução. III. Razões de decidir: 3. Não ocorrência de erro material. A autora deduziu pedido condenatório líquido expresso na petição inicial da ação cognitiva, no importe de R$ 42.651,00, montante que foi acolhido integralmente pelo dispositivo da r. sentença e confirmado em grau de apelação, transitando em julgado. 4. ==A faculdade de correção de erro material a qualquer tempo (art. 494, I, do CPC) restringe-se a lapsos formais evidentes, erros de cálculo aritmético na fundamentação ou inexatidões objetivas da própria decisão judicial, não albergando a modificação substancial do conteúdo econômico do julgado== ou a correção de equívoco imputável à própria petição inicial. 5. Eficácia preclusiva da coisa julgada material e princípio da fidelidade ao título executivo judicial (arts. 141, 492, 502, 508 e 509, § 4º, do CPC) que impedem a reavaliação de provas da fase cognitiva para elevar o quantum debeatur em sede de cumprimento de sentença. 6. O acolhimento da impugnação ao cumprimento de sentença com reconhecimento de excesso de execução impõe a condenação da exequente ao pagamento de honorários sucumbenciais incidentes sobre o proveito econômico obtido pela devedora (art. 85, § 2º, do CPC), mostrando-se descabida a pretendida sucumbência recíproca quando a impugnante obteve êxito integral no objeto do incidente. IV. Dispositivo e tese: 7. Recurso não provido. Tese de julgamento: 1. O cumprimento de sentença deve observar com estrita fidelidade o valor nominal constante do título executivo judicial transitado em julgado, não se qualificando como erro material retificável a pretensão de majorar o valor da condenação, quando o dispositivo sentencial acolheu exatamente o valor líquido postulado na petição inicial. Legislação citada: Código de Processo Civil, arts. 85, § 2º, 141, 489, § 3º, 492, 494, I, 502, 505, 507, 508, 509, § 4º, e 1.015, parágrafo único. Jurisprudência citada: TJSP, 16ª Câmara de Direito Privado, Agravo de Instrumento nº 2268055-14.2025.8.26.0000, Rel. Marcelo Ielo Amaro, j. 13/11/2025. TJSP, 16ª Câmara de Direito Privado, Agravo de Instrumento nº 2044301-95.2023.8.26.0000, Rel. Coutinho de Arruda, j. 10/10/2023. TJSP, 2ª Câmara Reservada de Direito Empresarial, Agravo de Instrumento nº 2332698-49.2023.8.26.0000, Rel. Sérgio Shimura, j. 09/01/2025.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2192188-78.2026.8.26.0000",
+      "relator": "Thiago de Siqueira",
+      "orgao": "14ª Câmara de Direito Privado",
+      "origem_foro": "Foro de Campinas - 5ª Vara Cível",
+      "julgamento": "19/10/2026",
+      "registro": "19/10/2026",
+      "ementa": "“Agravo de instrumento – Ação revisional de contrato em fase de cumprimento de sentença – Impugnação rejeitada – Alegações de nulidade da decisão por ausência de fundamentação e de excesso de execução – Inocorrência de nulidade – Decisão que indicou, de maneira clara e suficiente, a ocorrência da preclusão – Desnecessidade de enfrentamento individual de argumentos cujo exame ficou prejudicado pela solução da questão processual antecedente – Cálculos definidos em liquidação por arbitramento – Banco que participou da prova pericial, apresentou manifestação técnica e teve oportunidade de se pronunciar sobre os esclarecimentos do perito – ==Decisão que homologou os cálculos e encerrou a liquidação não impugnada pelo recurso próprio – Impossibilidade de rediscussão, no cumprimento de sentença, da metodologia pericial e dos critérios de cálculo anteriormente examinados – Inteligência dos arts. 507 e 509, § 4º, do CPC== – Alegação de excesso que não se funda em erro aritmético, fato superveniente ou desconformidade entre o valor homologado e aquele exigido – Pretensão de reabertura da liquidação – Inadmissibilidade – Preclusão configurada – Decisão mantida – Recurso improvido.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2166557-35.2026.8.26.0000",
+      "relator": "Eduardo Velho",
+      "orgao": "17ª Câmara de Direito Privado",
+      "origem_foro": "Foro de Lucélia - 1ª Vara",
+      "julgamento": "23/10/2026",
+      "registro": "26/10/2026",
+      "ementa": "> ==TJSP:== “VOTO nº 37.185 AGRAVO DE INSTRUMENTO – EXPURGOS INFLACIONÁRIOS – AÇÃO CIVIL PÚBLICA – CUMPRIMENTO INDIVIDUAL DE SENTENÇA – EXCESSO DE EXECUÇÃO – ==Pretensão de revisão dos cálculos sob alegação de erro material. Descabimento.== Discussão relativa aos critérios de atualização do débito e aos abatimentos de depósitos judiciais. ==Matéria já decidida nos autos.== Aplicação do Tema 677 do STJ. Ausência de demonstração de erro técnico ou aritmético apto a infirmar os cálculos apresentados pelos exequentes. Perícia contábil desnecessária. Recurso improvido.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "observacoes": ""
+}

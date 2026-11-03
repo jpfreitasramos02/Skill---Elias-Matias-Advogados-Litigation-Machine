@@ -1,0 +1,97 @@
+{
+  "id": "homologacao-laudo-esclarecimentos",
+  "titulo": "Homologação do laudo: esclarecimentos prestados afastam a alegação de omissão (CPC, art. 477, § 2º)",
+  "clientes": [
+    "AREPC"
+  ],
+  "tags": [
+    "perícia",
+    "laudo",
+    "esclarecimentos",
+    "homologação",
+    "cumprimento de sentença"
+  ],
+  "resumo": "O dever do perito (CPC, art. 477, § 2º) é esclarecer os pontos de divergência, não acolher a tese da parte; respondida a impugnação, a mera discordância não justifica novos esclarecimentos, nova perícia ou nulidade (CPC, arts. 473 e 489, § 1º, IV).",
+  "uso": "As Câmaras deste E. Tribunal mantêm a homologação quando o perito presta os esclarecimentos pertinentes e a impugnação se limita a reiterar a discordância da parte:",
+  "dispositivos": [
+    {
+      "lei": "CPC",
+      "artigo": "473",
+      "texto": "“Art. 473. O laudo pericial deverá conter:\nIV - resposta conclusiva a todos os quesitos apresentados pelo juiz, pelas partes e pelo órgão do Ministério Público.\n§ 1º No laudo, o perito deve apresentar sua fundamentação em linguagem simples e com coerência lógica,”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "477",
+      "texto": "“Art. 477. O perito protocolará o laudo em juízo, no prazo fixado pelo juiz, pelo menos 20 (vinte) dias antes da audiência de instrução e julgamento.\n§2º O perito do juízo tem o dever de, no prazo de 15 (quinze) dias, esclarecer ponto:\nI - sobre o qual exista divergência ou dúvida de qualquer das partes, do juiz ou do órgão do Ministério Público;\nII - divergente apresentado no parecer do assistente técnico da parte.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "489",
+      "texto": "“Art. 489. São elementos essenciais da sentença:\n§ 1º Não se considera fundamentada qualquer decisão judicial, seja ela interlocutória, sentença ou acórdão, que:\nIV - não enfrentar todos os argumentos deduzidos no processo capazes de, em tese, infirmar a conclusão adotada pelo julgador;”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "precedentes": [],
+  "julgados": [
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2103027-57.2026.8.26.0000",
+      "relator": "Vito Guglielmi",
+      "orgao": "6ª Câmara de Direito Privado",
+      "origem_foro": "Foro de Lins - 3ª Vara Cível",
+      "julgamento": "04/08/2026",
+      "registro": "06/08/2026",
+      "ementa": "“AÇÃO CIVIL PÚBLICA. CUMPRIMENTO DE SENTENÇA. PERÍCIA. HOMOLOGAÇÃO. CABIMENTO. INSURGÊNCIA CONTRA O LAUDO TÉCNICO. PROFISSIONAL DE CONFIANÇA DO JUÍZO. PRETENSÃO DESPROVIDA DE FUNDAMENTO. LAUDO PERICIAL QUE BEM APRECIOU OS QUESITOS FORMULADOS PELA RECORRENTE, DE MANEIRA FUNDAMENTADA, VALENDO-SE DO CONHECIMENTO TÉCNICO. ==AUXILIAR DO JUÍZO QUE, APÓS A APRESENTAÇÃO DO LAUDO, OFERTOU ESCLARECIMENTOS POR FORÇA DE MANIFESTAÇÕES DA AGRAVANTE. LAUDO PERICIAL QUE NÃO PADECE DE OMISSÃO, CONTRARIEDADE E SUPERFICIALIDADE.== DECISÃO MANTIDA. RECURSO DESPROVIDO.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2057181-17.2026.8.26.0000",
+      "relator": "Walter Fonseca",
+      "orgao": "11ª Câmara de Direito Privado",
+      "origem_foro": "Foro de Ribeirão Preto - 5ª Vara Cível",
+      "julgamento": "26/05/2026",
+      "registro": "26/05/2026",
+      "ementa": "> ==TJSP:== “CUMPRIMENTO DE SENTENÇA - HOMOLOGAÇÃO DE LAUDO PERICIAL - ALEGAÇÃO DE CERCEAMENTO DE DEFESA - ESCLARECIMENTOS PRESTADOS PELO PERITO - REITERAÇÃO DE IMPUGNAÇÃO SEM FUNDAMENTO NOVO – MANUTENÇÃO - ==O atendimento ao art. 477, §2º, do CPC ocorre quando o perito judicial presta esclarecimentos sobre as divergências apontadas pelas partes, não sendo obrigatória a renovação ilimitada de manifestações periciais== - A mera discordância do assistente técnico da parte com as conclusões do perito judicial não justifica a realização de novos esclarecimentos ou a repetição da perícia sem demonstração concreta de erro técnico ou vício metodológico - Decisão mantida. Recurso desprovido.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "tribunal": "TJSP",
+      "classe": "Agravo de Instrumento",
+      "numero": "2022466-46.2026.8.26.0000",
+      "relator": "Rodrigues Monteiro",
+      "orgao": "20ª Câmara de Direito Privado",
+      "origem_foro": "Foro de Araçatuba - 3ª Vara Cível",
+      "julgamento": "17/04/2026",
+      "registro": "17/04/2026",
+      "ementa": "> ==TJSP:== “Direito Processual Civil. Agravo de instrumento. Cumprimento de sentença. Impugnação parcialmente acolhida. Homologação de laudo pericial contábil. Observância do título executivo judicial. Preclusão quanto aos critérios de cálculo. Efeito suspensivo revogado. Recurso desprovido. I. Caso em exame Agravo de instrumento interposto contra decisão que, em cumprimento de sentença, acolheu parcialmente a impugnação, homologou laudo pericial contábil e seus esclarecimentos, fixou valores pagos a maior pela exequente a serem restituídos pela instituição financeira executada, bem como honorários advocatícios, determinando ainda o levantamento de honorários periciais e o pagamento do débito apurado. A agravante pretende a reforma da decisão para homologação integral de seus cálculos, com afastamento da restituição. II. Questão em discussão A questão em discussão consiste em definir se a decisão que homologou o laudo pericial contábil deve ser reformada diante da alegação de incorreção dos cálculos e inexistência de valores a serem restituídos. III. Razões de decidir O valor executado decorre de decisão transitada em julgado, devendo a apuração do quantum debeatur observar estritamente os parâmetros fixados no título executivo judicial. O laudo pericial foi elaborado com base nos documentos constantes dos autos e em conformidade com o acórdão que definiu os critérios de revisão contratual e restituição de valores. ==A prova pericial tem por finalidade apurar valores líquidos e certos, não se prestando à rediscussão de critérios já definidos na fase de conhecimento.== O perito prestou esclarecimentos complementares e apresentou planilhas detalhadas, não havendo demonstração concreta de erro nos cálculos homologados. ==A parte executada não pode rediscutir critérios de cálculo já estabelecidos, sob pena de violação à preclusão consumativa.== A alegação de risco de dano irreparável foi formulada de forma genérica, sem comprovação de perigo concreto. A jurisprudência do STJ veda o reexame de matéria fático-probatória e reconhece a preclusão quanto à impugnação tardia de critérios de cálculo homologados. O julgador não está obrigado a mencionar todos os dispositivos legais para fins de prequestionamento, considerando-se debatidas as matérias suscitadas. IV. Dispositivo e tese Recurso desprovido. Tese de julgamento: A homologação de laudo pericial contábil deve ser mantida quando elaborada em conformidade com o título executivo judicial e baseada nos elementos dos autos. É vedada a rediscussão, em fase de cumprimento de sentença, dos critérios de cálculo já definidos na decisão transitada em julgado, em razão da preclusão. A impugnação genérica desacompanhada de prova concreta não afasta a validade dos cálculos periciais homologados. Dispositivos relevantes citados: CPC, arts. 489, 1.022, 1.026, §2º. Jurisprudência relevante: STJ, AgInt nos EDcl no AgInt no AREsp nº 2.573.290/DF, Rel. Min. Antonio Carlos Ferreira, 4ª Turma, j. 26.08.2024; STJ, AgInt no AREsp nº 2.150.337/SC, Rel. Min. Nancy Andrighi, 3ª Turma, j. 06.03.2023; STJ, AgInt no AgInt no AREsp nº 1.539.138/SP, Rel. Min. Manoel Erhardt, 1ª Turma, j. 28.03.2022.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "observacoes": ""
+}
