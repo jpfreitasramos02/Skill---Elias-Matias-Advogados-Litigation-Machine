@@ -1,0 +1,55 @@
+{
+  "id": "cdc-inaplicavel-condominio",
+  "titulo": "CDC inaplicável à relação entre condômino e condomínio (e à administradora que age em nome deste)",
+  "clientes": [
+    "Hubert"
+  ],
+  "tags": [
+    "condomínio",
+    "CDC",
+    "relação de consumo",
+    "administradora",
+    "inversão do ônus"
+  ],
+  "resumo": "Não há relação de consumo entre condômino e condomínio quanto às despesas de manutenção; a administradora que apenas emite a cobrança em nome do condomínio não é fornecedora do condômino (CDC, arts. 2º, 17 e 29).",
+  "uso": "É o entendimento do Superior Tribunal de Justiça:",
+  "dispositivos": [
+    {
+      "lei": "CDC",
+      "artigo": "2",
+      "texto": "“Consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contestação – Hubert Imóveis x Gustavo Capela Gonçalves (4024086-08.2026.8.26.0405), out/2026"
+    },
+    {
+      "lei": "CDC",
+      "artigo": "17",
+      "texto": "“Para os efeitos desta Seção, equiparam-se aos consumidores todas as vítimas do evento.” Art. 29: “Para os fins deste Capítulo e do seguinte, equiparam-se aos consumidores todas as pessoas determináveis ou não, expostas às práticas nele previstas.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contestação – Hubert Imóveis x Gustavo Capela Gonçalves (4024086-08.2026.8.26.0405), out/2026"
+    }
+  ],
+  "precedentes": [],
+  "julgados": [
+    {
+      "tribunal": "STJ",
+      "classe": "REsp",
+      "numero": "650.791/RJ",
+      "orgao": "2ª Turma",
+      "relator": "Min. Castro Meira",
+      "julgamento": "06/04/2006",
+      "publicacao": "DJ 20/04/2006",
+      "ementa": "“TRIBUTÁRIO. TAXA DE ESGOTO. COBRANÇA INDEVIDA. RELAÇÃO DE CONSUMO. CONDOMÍNIO. 1. ==É inaplicável o Código de Defesa de Consumidor às relações entre os condôminos e o condomínio quanto às despesas de manutenção deste==. 2. Existe relação de consumo entre o condomínio de quem é cobrado indevidamente taxa de esgoto e a concessionária de serviço público. 3. Aplicação do artigo 42 do Código de Defesa de Consumidor que determina o reembolso em dobro. 4. Recurso especial provido.”",
+      "url": "",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "conferido_por": null,
+      "origem": "Contestação – Hubert Imóveis x Gustavo Capela Gonçalves (4024086-08.2026.8.26.0405), out/2026"
+    }
+  ],
+  "observacoes": "Distinção usada na peça: o REsp 509.304/PR (Rel. Min. Ricardo Villas Bôas Cueva) trata de proprietário que contratou diretamente a imobiliária — não se aplica quando quem contrata a administradora é o condomínio."
+}

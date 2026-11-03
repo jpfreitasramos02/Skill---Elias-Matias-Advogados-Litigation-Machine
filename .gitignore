@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.indice.json
+*.skill.zip
+banco-em/

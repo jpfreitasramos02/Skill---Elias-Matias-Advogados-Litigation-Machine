@@ -1,0 +1,47 @@
+{
+  "id": "agravo-efeito-suspensivo-indeferimento",
+  "titulo": "Contraminuta: ausência dos requisitos do efeito suspensivo no agravo (CPC, art. 995, parágrafo único)",
+  "clientes": [
+    "AREPC"
+  ],
+  "tags": [
+    "agravo de instrumento",
+    "efeito suspensivo",
+    "contraminuta",
+    "tempestividade"
+  ],
+  "resumo": "O efeito suspensivo exige probabilidade de provimento e risco de dano grave (CPC, art. 995, parágrafo único); ausente qualquer deles, mantém-se o indeferimento. Prazo da contraminuta: 15 dias úteis (CPC, art. 1.019, II, c/c art. 219).",
+  "uso": "",
+  "dispositivos": [
+    {
+      "lei": "CPC",
+      "artigo": "995",
+      "texto": "“Art. 995. Os recursos não impedem a eficácia da decisão, salvo disposição legal ou decisão judicial em sentido diverso.\nParágrafo único. A eficácia da decisão recorrida poderá ser suspensa por decisão do relator, se da imediata produção de seus efeitos houver risco de dano grave, de difícil ou impossível reparação, e ficar demonstrada a probabilidade de provimento do recurso.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "1.019",
+      "texto": "“Art. 1.019. Recebido o agravo de instrumento no tribunal e distribuído imediatamente, se não for o caso de aplicação do art. 932, incisos III e IV, o relator, no prazo de 5 (cinco) dias:\nI - poderá atribuir efeito suspensivo ao recurso ou deferir, em antecipação de tutela, total ou parcialmente, a pretensão recursal, comunicando ao juiz sua decisão;\nII - ordenará a intimação do agravado pessoalmente, por carta com aviso de recebimento, quando não tiver procurador constituído, ou pelo Diário da Justiça ou por carta com aviso de recebimento dirigida ao seu advogado, para que responda no prazo de 15 (quinze) dias, facultando-lhe juntar a documentação que entender necessária ao julgamento do recurso;\nIII - determinará a intimação do Ministério Público, preferencialmente por meio eletrônico, quando for o caso de sua intervenção, para que se manifeste no prazo de 15 (quinze) dias.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    },
+    {
+      "lei": "CPC",
+      "artigo": "219",
+      "texto": "“Art. 219. Na contagem de prazo em dias, estabelecido por lei ou pelo juiz, computar-se-ão somente os dias úteis.\nParágrafo único. O disposto neste artigo aplica-se somente aos prazos processuais.”",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "status": "a_conferir",
+      "conferido_em": null,
+      "origem": "Contraminuta de agravo de instrumento – AREPC x Denis Carvalho D’Amico (AI 2218971-10.2026.8.26.0000), out/2026"
+    }
+  ],
+  "precedentes": [],
+  "julgados": [],
+  "observacoes": ""
+}
