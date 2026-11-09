@@ -19,9 +19,9 @@ Caminhos relativos (saída e imagens) são resolvidos a partir da pasta do plano
 | `**texto**` | negrito |
 | `*texto*` | itálico (use para expressões latinas: *ad judicia et extra*) |
 | `++texto++` | sublinhado |
-| `==texto==` | destaque: negrito + fundo bege. Use com parcimônia, no trecho decisivo de um parágrafo ou ementa |
+| `==texto==` | destaque: negrito + fundo cinza-claro. Use com parcimônia, no trecho decisivo de um parágrafo ou ementa |
 | `[[fls. 708/709]]` | referência aos autos, em negrito. Escreva os parênteses dentro quando a frase pedir: `[[(fls. 10)]]` |
-| `{{nota: texto}}` | nota de rodapé no ponto exato. Use `\n` para quebrar parágrafos dentro da nota |
+| `{{nota: texto}}` | nota de rodapé no ponto exato (Calibri 9, número sobrescrito). Use `\n` para quebrar parágrafos dentro da nota |
 | `[texto]` | pendência: sai grifada em amarelo e é listada pelo script no final. Não são pendências os colchetes editoriais de citação: `[...]`, `[sic]`, `[grifo nosso]`, `[grifos nossos]`, `[g.n.]`, `[destaque nosso]`, `[grifo no original]`, `[sem grifo no original]`, `[grifei]` |
 | `\t` | tabulação |
 | `\*` | asterisco literal |
@@ -35,13 +35,13 @@ Caminhos relativos (saída e imagens) são resolvidos a partir da pasta do plano
 | `qualificacao` | `texto` | Parágrafo de abertura (nome da parte em negrito e caixa alta) |
 | `titulo` | `texto`, `antes`, `nova_pagina` | Nome da peça centralizado (DEFESA PRÉVIA, CONTESTAÇÃO, RAZÕES DE APELAÇÃO) |
 | `secao` | `num` ("I."), `texto` | Tópico principal, centralizado e em negrito. Aceita a marcação de texto |
-| `subsecao` | `num` ("III.1."), `texto` | Subtópico em negrito, justificado. Aceita a marcação de texto |
+| `subsecao` | `num` ("III.1."), `texto` | Subtítulo centralizado, em negrito e itálico. Aceita a marcação de texto |
 | `p` | `texto`, `sem_recuo`, `alinhamento` | Parágrafo de texto corrido (recuo de 1ª linha, justificado, 1,5) |
 | `citacao` | `linhas` (lista) ou `texto`, `italico`, `fonte` | Recuo de 4 cm, entrelinha 1,15: artigos de lei transcritos, trechos de decisão ou da peça adversária |
 | `ementa` | `tribunal` ("TJSP", "STJ"), `texto` (com aspas), `referencia` | Ementa recuada em itálico, com a referência completa embaixo em cinza |
 | `imagem` | `arquivo`, `largura_cm` (padrão 14,5), `legenda`, `borda` | Print centralizado, com legenda em itálico; a legenda deve terminar com a referência `[[fls. X]]` |
-| `tabela` | `colunas`, `linhas`, `titulo` (faixa grafite), `larguras` (pesos), `alinhamento` (por coluna; o que faltar usa o padrão), `destaque` (linhas, contando de 1), `legenda` | Linha do tempo em tabela, quadro comparativo, lista de documentos |
-| `quadro` | `itens` ([[rótulo, texto], ...]), `titulo` (padrão "Em síntese") | Quadro-resumo: caixa bege com fio laranja à esquerda |
+| `tabela` | `colunas`, `linhas`, `titulo` (faixa preta; cabeçalho das colunas em cinza), `larguras` (pesos), `alinhamento` (por coluna; o que faltar usa o padrão), `destaque` (linhas, contando de 1), `legenda` | Linha do tempo em tabela, quadro comparativo, lista de documentos |
+| `quadro` | `itens` ([[rótulo, texto], ...]), `titulo` (padrão "Em síntese") | Quadro-resumo: caixa cinza-clara com fio preto à esquerda |
 | `partes` | `linhas` ([[rótulo, texto], ...]) | Cabeçalho das razões recursais (AGRAVANTE:, AGRAVADA:, AUTOS DE ORIGEM:) |
 | `vocativo` | `linhas` | "EGRÉGIO TRIBUNAL, / COLENDA CÂMARA, / ÍNCLITOS JULGADORES," |
 | `pedidos` | `intro`, `itens` | Alíneas a), b), c)... com recuo deslocado. Cada item termina em ";" e o último em "." |

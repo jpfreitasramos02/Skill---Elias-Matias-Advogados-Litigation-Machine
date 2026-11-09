@@ -51,11 +51,12 @@ PERFIL = {
     'recuo': 1418,            # 2,5 cm
     'apos': 240,
     'entrelinha': 360,
-    'acento': '383B45',       # grafite
-    'laranja': 'F69C08',
-    'bege': 'FDF1DE',
-    'cinza_claro': 'F2F2F3',
-    'cinza': '6B6E76',
+    # identidade visual do logo: preto e cinza (#9D9D9D), sem outras cores
+    'acento': '000000',       # preto da marca (faixa de título das tabelas, fio do quadro)
+    'cinza_marca': '9D9D9D',  # cinza da marca ("ADVOGADOS"): cabeçalho das tabelas
+    'cinza_claro': 'F2F2F2',  # fundo do quadro "Em síntese" e linhas alternadas
+    'destaque': 'DCDCDC',     # linha destacada da tabela e trecho ==destacado==
+    'cinza': '6E6E6E',        # textos secundários (legendas, referências de ementa)
     'cidade': 'São Paulo',
     'assinatura': [('Rubens Carmo Elias Filho', 'OAB/SP 138.871'),
                    ('Carla Maluf Elias', 'OAB/SP 110.819')],
@@ -84,6 +85,28 @@ PODERES = ('aos quais confere os poderes da cláusula *ad judicia et extra*, a f
            'discordar, retificar atos já praticados, requerendo e assinando o que preciso for, e tudo o mais '
            'fazer para o bom e fiel cumprimento do presente mandato, inclusive substabelecer com ou sem '
            'reserva de iguais poderes')
+
+
+# Estilos de nota de rodapé (o modelo do escritório não os traz): texto em Calibri 9 e número
+# sobrescrito. Sem eles, o Word/LibreOffice mostram o número do rodapé no tamanho do texto.
+ESTILOS_NOTA = (
+    '<w:style w:type="paragraph" w:styleId="Textodenotaderodap"><w:name w:val="footnote text"/>'
+    '<w:basedOn w:val="Normal"/><w:link w:val="TextodenotaderodapChar"/><w:uiPriority w:val="99"/>'
+    '<w:unhideWhenUsed/><w:pPr><w:spacing w:after="0" w:line="240" w:lineRule="auto"/><w:jc w:val="both"/></w:pPr>'
+    '<w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr></w:style>'
+    '<w:style w:type="character" w:customStyle="1" w:styleId="TextodenotaderodapChar">'
+    '<w:name w:val="Texto de nota de rodapé Char"/><w:basedOn w:val="Fontepargpadro"/>'
+    '<w:link w:val="Textodenotaderodap"/><w:uiPriority w:val="99"/>'
+    '<w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr></w:style>'
+    '<w:style w:type="character" w:styleId="Refdenotaderodap"><w:name w:val="footnote reference"/>'
+    '<w:basedOn w:val="Fontepargpadro"/><w:uiPriority w:val="99"/><w:unhideWhenUsed/>'
+    '<w:rPr><w:vertAlign w:val="superscript"/></w:rPr></w:style>')
+
+
+def limpo_fim(texto):
+    """Texto sem notas de rodapé e sem marcação, para olhar como o parágrafo termina."""
+    t = re.sub(r'\{\{nota:.*?\}\}', '', texto, flags=re.S)
+    return re.sub(r'\*\*|\+\+|==|\]\]|\[\[|\*', '', t).rstrip()
 
 
 class Peca:
@@ -156,7 +179,7 @@ class Peca:
                 if st['u']: fmt['u'] = True
                 if st['hl']:
                     fmt['b'] = True
-                    fmt['shd'] = self.p['bege']
+                    fmt['shd'] = self.p['destaque']
                 if st['ref']:
                     fmt['b'] = True
                 if self.PENDENCIA.fullmatch(ped) and not self.EDITORIAL.fullmatch(ped):
@@ -252,19 +275,26 @@ class Peca:
             self.add(self.par('', jc='left', depois=0, linha=linha))
 
     # ---------------------------------------------------------------- notas de rodapé
+    # número da nota: estilo "Referência de nota de rodapé" (sobrescrito) + tamanho explícito,
+    # para o Word e o LibreOffice mostrarem o número pequeno, no corpo e no rodapé
+    REF_NOTA = ('<w:rPr><w:rStyle w:val="Refdenotaderodap"/>'
+                '<w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/>'
+                '<w:vertAlign w:val="superscript"/><w:sz w:val="{sz}"/><w:szCs w:val="{sz}"/></w:rPr>')
+
     def nota(self, conteudo):
         nid = len(self.notas) + 1
         paras = []
         for k, linha in enumerate(conteudo.split('\n')):
             ref = ''
             if k == 0:
-                ref = (f'<w:r>{self.rpr(sz=18, sup=True)}<w:footnoteRef/></w:r>'
+                ref = (f'<w:r>{self.REF_NOTA.format(sz=18)}<w:footnoteRef/></w:r>'
                        f'<w:r>{self.rpr(sz=18)}<w:t xml:space="preserve"> </w:t></w:r>')
             antes = self.inline(linha, {'sz': 18})
-            paras.append(f'<w:p><w:pPr><w:spacing w:after="0" w:line="240" w:lineRule="auto"/>'
+            paras.append(f'<w:p><w:pPr><w:pStyle w:val="Textodenotaderodap"/>'
+                         f'<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>'
                          f'<w:jc w:val="both"/></w:pPr>{ref}{antes}</w:p>')
         self.notas.append(f'<w:footnote w:id="{nid}">{"".join(paras)}</w:footnote>')
-        return f'<w:r>{self.rpr(sup=True)}<w:footnoteReference w:id="{nid}"/></w:r>'
+        return f'<w:r>{self.REF_NOTA.format(sz=24)}<w:footnoteReference w:id="{nid}"/></w:r>'
 
     # ---------------------------------------------------------------- tabelas
     def _borda(self, lados):
@@ -335,16 +365,19 @@ class Peca:
             rows.append('<w:tr><w:trPr><w:cantSplit/><w:tblHeader/></w:trPr>' + self.celula(
                 self.ptab(b['titulo'].upper(), base={'b': True, 'cor': 'FFFFFF', 'sz': 18}, keep=True),
                 sum(ls), fill=self.p['acento'], bordas=branco, span=n, mar=(70, 150)) + '</w:tr>')
-        cab = ''.join(self.celula(self.ptab(c.upper(), 'center', {'b': True, 'cor': 'FFFFFF', 'sz': 18}, True),
-                                  ls[k], fill=self.p['laranja'], bordas=branco, mar=(60, 110))
+        cab = ''.join(self.celula(self.ptab(c.upper(), 'center', {'b': True, 'cor': '000000', 'sz': 18}, True),
+                                  ls[k], fill=self.p['cinza_marca'], bordas=branco, mar=(60, 110))
                       for k, c in enumerate(cols))
         rows.append(f'<w:tr><w:trPr><w:cantSplit/><w:tblHeader/></w:trPr>{cab}</w:tr>')
+        # tabela curta (até 10 linhas) fica inteira numa página; maior pode quebrar, repetindo o cabeçalho
+        inteira = len(b['linhas']) <= 10
         for r, linha in enumerate(b['linhas'], 1):
             d = r in destaque
-            fill = self.p['bege'] if d else (self.p['cinza_claro'] if r % 2 else 'FFFFFF')
+            fill = self.p['destaque'] if d else (self.p['cinza_claro'] if r % 2 else 'FFFFFF')
             base = {'sz': 18, 'b': d} if d else {'sz': 18}
+            junto = inteira and r < len(b['linhas'])
             cels = ''.join(self.celula(self.ptab(str(t), alinh[k] if k < len(alinh) else 'both',
-                                                 dict(base, b=True) if k == 0 else base),
+                                                 dict(base, b=True) if k == 0 else base, junto),
                                        ls[k], fill=fill, bordas=branco, mar=(90, 130))
                            for k, t in enumerate(linha))
             rows.append(f'<w:tr><w:trPr><w:cantSplit/></w:trPr>{cels}</w:tr>')
@@ -355,20 +388,20 @@ class Peca:
             self.vazio(1)
 
     def quadro(self, b):
-        """Quadro-resumo "Em síntese": caixa bege com fio laranja, pares rótulo/texto."""
+        """Quadro-resumo "Em síntese": caixa cinza-clara com fio preto à esquerda, pares rótulo/texto."""
         itens = b['itens']
         titulo = b.get('titulo', 'Em síntese')
         total = self.largura_util()
         rows = []
-        lado = {'left': (24, self.p['laranja'])}
+        lado = {'left': (24, self.p['acento'])}
         conteudo = self.ptab(titulo, base={'b': True, 'cor': self.p['acento'], 'sz': 20}, keep=True)
         for it in itens:
             rot, txt = it[0], it[1]
             pre = f'**{rot}** ' if rot else ''
             conteudo += (f'<w:p><w:pPr><w:spacing w:before="60" w:after="0" w:line="252" w:lineRule="auto"/>'
-                         f'<w:jc w:val="both"/></w:pPr>{self.inline(pre + txt, {"sz": 18, "cor": "404040"})}</w:p>')
+                         f'<w:jc w:val="both"/></w:pPr>{self.inline(pre + txt, {"sz": 18, "cor": "000000"})}</w:p>')
         rows.append('<w:tr><w:trPr><w:cantSplit/></w:trPr>' +
-                    self.celula(conteudo, total, fill=self.p['bege'], bordas=lado, mar=(120, 200)) + '</w:tr>')
+                    self.celula(conteudo, total, fill=self.p['cinza_claro'], bordas=lado, mar=(120, 200)) + '</w:tr>')
         self.add(self.tabela_xml([total], rows))
         self.vazio(1)
 
@@ -474,12 +507,15 @@ class Peca:
     def subsecao(self, b):
         num = b.get('num', '')
         texto = f'{num} {b["texto"]}' if num else b['texto']
-        self.add(self.par(self.inline(texto, {'b': True}), jc='both', antes=120, depois=240, keep=True))
+        self.add(self.par(self.inline(texto, {'b': True, 'i': True}), jc='center', antes=120, depois=240, keep=True))
 
     def paragrafo(self, b):
         recuo = 0 if b.get('sem_recuo') else self.p['recuo']
         jc = b.get('alinhamento', 'both')
-        self.add(self.par(self.inline(b['texto']), recuo=recuo if jc == 'both' else None, jc=jc))
+        # parágrafo que anuncia o que vem a seguir (termina em ":") fica na mesma página do
+        # bloco seguinte (ementa, print, citação), para não ficar sozinho no pé da página
+        anuncia = limpo_fim(b['texto']).endswith(':')
+        self.add(self.par(self.inline(b['texto']), recuo=recuo if jc == 'both' else None, jc=jc, keep=anuncia))
 
     def citacao(self, b):
         """Citação recuada (artigo de lei, trecho de decisão). Uma string por parágrafo."""
@@ -630,6 +666,11 @@ class Peca:
                     f'<Relationship Id="{rid}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/{nome}"/>'
                     for rid, nome, _ in self.imagens)
                 s = s.replace('</Relationships>', novas + '</Relationships>')
+                dados = s.encode('utf-8')
+            elif n == 'word/styles.xml':
+                s = dados.decode('utf-8')
+                if 'w:styleId="Refdenotaderodap"' not in s:
+                    s = s.replace('</w:styles>', ESTILOS_NOTA + '</w:styles>')
                 dados = s.encode('utf-8')
             elif n == 'word/footnotes.xml' and self.notas:
                 s = dados.decode('utf-8')

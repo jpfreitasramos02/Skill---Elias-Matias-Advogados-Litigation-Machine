@@ -37,9 +37,10 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
+# identidade visual do logo: preto e cinza #9D9D9D
 ESTILO = {'fontes': ['Calibri', 'Carlito', 'Lato', 'DejaVu Sans'],
-          'texto': '#262626', 'cinza': '#6B6E76', 'linha': '#D9D9D9', 'passado': '#383B45',
-          'acento': '#F69C08'}
+          'texto': '#000000', 'cinza': '#6E6E6E', 'linha': '#DCDCDC', 'passado': '#9D9D9D',
+          'acento': '#000000'}
 
 
 def fonte(lista):
