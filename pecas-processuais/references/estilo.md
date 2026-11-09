@@ -146,12 +146,13 @@ dos poderes é o do modelo do escritório e não deve ser reescrito; só mudam:
 ### Padrão visual e de redação
 - Fonte Calibri 12, entrelinha 1,5, recuo de 1ª linha de 2,5 cm.
 - Títulos de seção (I., II.) centralizados, em negrito; subtítulos (I.1., I.2.) centralizados, em
-  negrito e itálico.
+  itálico, sem negrito.
 - Notas de rodapé em Calibri 9, com o número sobrescrito (no corpo e no rodapé).
-- Identidade visual do logo: **preto e cinza (#9D9D9D)**, sem outras cores. Tabelas com faixa de
-  título preta (texto branco), cabeçalho das colunas cinza #9D9D9D, linhas alternadas branco e
-  cinza-claro, linha destacada em cinza; quadro "Em síntese" cinza-claro com fio preto à esquerda;
-  linha do tempo em preto e cinza.
+- Identidade visual: **preto, cinza (#9D9D9D) e amarelo (#FFC000)**. Tabelas com faixa de título
+  preta (texto branco), cabeçalho das colunas amarelo (texto preto), linhas alternadas branco e
+  cinza-claro, linha destacada em cinza; quadro "Em síntese" cinza-claro com fio amarelo à
+  esquerda; linha do tempo em preto e cinza, com o trecho e o marco decisivos em amarelo. O
+  destaque ==no texto== é cinza: o grifo amarelo fica reservado às pendências em [colchetes].
 - Endereçamento sem negrito: "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA ...".
 - "por seus advogados" (plural). Nome da ação e da peça em negrito e caixa alta no 1º parágrafo.
 - Intimação exclusiva em nome de Rubens Carmo Elias Filho (OAB/SP 138.871) e Carla Maluf Elias

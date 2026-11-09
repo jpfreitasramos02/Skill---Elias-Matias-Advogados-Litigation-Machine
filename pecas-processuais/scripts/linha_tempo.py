@@ -37,10 +37,11 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
-# identidade visual do logo: preto e cinza #9D9D9D
+# identidade visual: preto, cinza #9D9D9D e amarelo #FFC000 (o amarelo só em trilho e marcos;
+# textos sempre em preto ou cinza, para serem legíveis)
 ESTILO = {'fontes': ['Calibri', 'Carlito', 'Lato', 'DejaVu Sans'],
           'texto': '#000000', 'cinza': '#6E6E6E', 'linha': '#DCDCDC', 'passado': '#9D9D9D',
-          'acento': '#000000'}
+          'acento': '#000000', 'amarelo': '#FFC000'}
 
 
 def fonte(lista):
@@ -68,7 +69,7 @@ def desenhar(cfg, base='.'):
         cor = est['linha']
         for t in cfg.get('trechos', []):
             if t['de'] <= k < t['ate']:
-                cor = est['acento'] if t.get('destaque') else est['passado']
+                cor = est['amarelo'] if t.get('destaque') else est['passado']
         ax.plot([k, k + 1], [y, y], color=cor, lw=3.2, solid_capstyle='butt', zorder=1)
     for t in cfg.get('trechos', []):
         meio = (t['de'] + t['ate']) / 2
@@ -78,7 +79,7 @@ def desenhar(cfg, base='.'):
     largura_txt = max(18, int(100 / max(n, 1)))
     for k, e in enumerate(ev):
         d = e.get('destaque')
-        cor_borda = est['acento'] if d else est['texto']
+        cor_borda = est['amarelo'] if d else est['texto']
         ax.scatter([k], [y], s=95, facecolor='white', edgecolor=cor_borda, linewidths=2.6, zorder=3)
         ax.text(k, 9.3, e['data'], ha='center', va='center', fontsize=11, fontweight='bold',
                 color=est['acento'] if d else est['texto'])

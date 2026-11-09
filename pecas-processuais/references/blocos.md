@@ -35,13 +35,13 @@ Caminhos relativos (saída e imagens) são resolvidos a partir da pasta do plano
 | `qualificacao` | `texto` | Parágrafo de abertura (nome da parte em negrito e caixa alta) |
 | `titulo` | `texto`, `antes`, `nova_pagina` | Nome da peça centralizado (DEFESA PRÉVIA, CONTESTAÇÃO, RAZÕES DE APELAÇÃO) |
 | `secao` | `num` ("I."), `texto` | Tópico principal, centralizado e em negrito. Aceita a marcação de texto |
-| `subsecao` | `num` ("III.1."), `texto` | Subtítulo centralizado, em negrito e itálico. Aceita a marcação de texto |
+| `subsecao` | `num` ("III.1."), `texto` | Subtítulo centralizado, em itálico, sem negrito. Aceita a marcação de texto |
 | `p` | `texto`, `sem_recuo`, `alinhamento` | Parágrafo de texto corrido (recuo de 1ª linha, justificado, 1,5) |
 | `citacao` | `linhas` (lista) ou `texto`, `italico`, `fonte` | Recuo de 4 cm, entrelinha 1,15: artigos de lei transcritos, trechos de decisão ou da peça adversária |
 | `ementa` | `tribunal` ("TJSP", "STJ"), `texto` (com aspas), `referencia` | Ementa recuada em itálico, com a referência completa embaixo em cinza |
 | `imagem` | `arquivo`, `largura_cm` (padrão 14,5), `legenda`, `borda` | Print centralizado, com legenda em itálico; a legenda deve terminar com a referência `[[fls. X]]` |
-| `tabela` | `colunas`, `linhas`, `titulo` (faixa preta; cabeçalho das colunas em cinza), `larguras` (pesos), `alinhamento` (por coluna; o que faltar usa o padrão), `destaque` (linhas, contando de 1), `legenda` | Linha do tempo em tabela, quadro comparativo, lista de documentos |
-| `quadro` | `itens` ([[rótulo, texto], ...]), `titulo` (padrão "Em síntese") | Quadro-resumo: caixa cinza-clara com fio preto à esquerda |
+| `tabela` | `colunas`, `linhas`, `titulo` (faixa preta; cabeçalho das colunas em amarelo), `larguras` (pesos), `alinhamento` (por coluna; o que faltar usa o padrão), `destaque` (linhas, contando de 1), `legenda` | Linha do tempo em tabela, quadro comparativo, lista de documentos |
+| `quadro` | `itens` ([[rótulo, texto], ...]), `titulo` (padrão "Em síntese") | Quadro-resumo: caixa cinza-clara com fio amarelo à esquerda |
 | `partes` | `linhas` ([[rótulo, texto], ...]) | Cabeçalho das razões recursais (AGRAVANTE:, AGRAVADA:, AUTOS DE ORIGEM:) |
 | `vocativo` | `linhas` | "EGRÉGIO TRIBUNAL, / COLENDA CÂMARA, / ÍNCLITOS JULGADORES," |
 | `pedidos` | `intro`, `itens` | Alíneas a), b), c)... com recuo deslocado. Cada item termina em ";" e o último em "." |

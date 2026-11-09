@@ -51,9 +51,10 @@ PERFIL = {
     'recuo': 1418,            # 2,5 cm
     'apos': 240,
     'entrelinha': 360,
-    # identidade visual do logo: preto e cinza (#9D9D9D), sem outras cores
-    'acento': '000000',       # preto da marca (faixa de título das tabelas, fio do quadro)
-    'cinza_marca': '9D9D9D',  # cinza da marca ("ADVOGADOS"): cabeçalho das tabelas
+    # identidade visual do escritório: preto, cinza (#9D9D9D) e amarelo
+    'acento': '000000',       # preto da marca (faixa de título das tabelas, títulos)
+    'amarelo': 'FFC000',      # amarelo da marca: cabeçalho das colunas e fio do quadro
+    'cinza_marca': '9D9D9D',  # cinza da marca ("ADVOGADOS")
     'cinza_claro': 'F2F2F2',  # fundo do quadro "Em síntese" e linhas alternadas
     'destaque': 'DCDCDC',     # linha destacada da tabela e trecho ==destacado==
     'cinza': '6E6E6E',        # textos secundários (legendas, referências de ementa)
@@ -366,7 +367,7 @@ class Peca:
                 self.ptab(b['titulo'].upper(), base={'b': True, 'cor': 'FFFFFF', 'sz': 18}, keep=True),
                 sum(ls), fill=self.p['acento'], bordas=branco, span=n, mar=(70, 150)) + '</w:tr>')
         cab = ''.join(self.celula(self.ptab(c.upper(), 'center', {'b': True, 'cor': '000000', 'sz': 18}, True),
-                                  ls[k], fill=self.p['cinza_marca'], bordas=branco, mar=(60, 110))
+                                  ls[k], fill=self.p['amarelo'], bordas=branco, mar=(60, 110))
                       for k, c in enumerate(cols))
         rows.append(f'<w:tr><w:trPr><w:cantSplit/><w:tblHeader/></w:trPr>{cab}</w:tr>')
         # tabela curta (até 10 linhas) fica inteira numa página; maior pode quebrar, repetindo o cabeçalho
@@ -388,12 +389,12 @@ class Peca:
             self.vazio(1)
 
     def quadro(self, b):
-        """Quadro-resumo "Em síntese": caixa cinza-clara com fio preto à esquerda, pares rótulo/texto."""
+        """Quadro-resumo "Em síntese": caixa cinza-clara com fio amarelo à esquerda, pares rótulo/texto."""
         itens = b['itens']
         titulo = b.get('titulo', 'Em síntese')
         total = self.largura_util()
         rows = []
-        lado = {'left': (24, self.p['acento'])}
+        lado = {'left': (36, self.p['amarelo'])}
         conteudo = self.ptab(titulo, base={'b': True, 'cor': self.p['acento'], 'sz': 20}, keep=True)
         for it in itens:
             rot, txt = it[0], it[1]
@@ -507,7 +508,7 @@ class Peca:
     def subsecao(self, b):
         num = b.get('num', '')
         texto = f'{num} {b["texto"]}' if num else b['texto']
-        self.add(self.par(self.inline(texto, {'b': True, 'i': True}), jc='center', antes=120, depois=240, keep=True))
+        self.add(self.par(self.inline(texto, {'i': True}), jc='center', antes=120, depois=240, keep=True))
 
     def paragrafo(self, b):
         recuo = 0 if b.get('sem_recuo') else self.p['recuo']
